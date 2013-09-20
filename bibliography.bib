@@ -923,6 +923,34 @@
   number = {4}
 }
 
+@INCOLLECTION{Luttinen:2013,
+  author = {Luttinen, Jaakko},
+  title = {Fast Variational {Bayesian} Linear State-Space Model},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases},
+  publisher = {Springer},
+  year = {2013},
+  editor = {Blockeel, Hendrik and Kersting, Kristian and Nijssen, Siegfried and
+	Železný, Filip},
+  volume = {8188},
+  series = {Lecture Notes in Computer Science},
+  pages = {305--320},
+  abstract = {This paper presents a fast variational Bayesian method for linear
+	state-space models. The standard variational Bayesian expectation-maximization
+	(VB-EM) algorithm is improved by a parameter expansion which optimizes
+	the rotation of the latent space. With this approach, the inference
+	is orders of magnitude faster than the standard method. The speed
+	of the proposed method is demonstrated on an artificial dataset and
+	a large real-world dataset, which shows that the standard VB-EM algorithm
+	is not suitable for large datasets because it converges extremely
+	slowly. In addition, the paper estimates the temporal state variables
+	using a smoothing algorithm based on the block LDL decomposition.
+	This smoothing algorithm reduces the number of required matrix inversions
+	and avoids a model augmentation compared to previous approaches.},
+  doi = {10.1007/978-3-642-40988-2_20},
+  owner = {jluttine},
+  timestamp = {2013.09.20}
+}
+
 @INPROCEEDINGS{Luttinen:2012:aistats,
   author = {Luttinen, Jaakko and Ilin, Alexander},
   title = {Efficient {Gaussian} Process Inference for Short-Scale Spatio-Temporal
