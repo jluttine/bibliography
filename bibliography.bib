@@ -170,10 +170,9 @@
   Crossref                 = {NIPS:2010}
 }
 
-@InProceedings{Orbanz:2009,
+@InCollection{Orbanz:2009,
   Title                    = {Construction of Nonparametric {Bayesian} Models from Parametric {Bayes} Equations},
   Author                   = {Orbanz, Peter},
-  Note                     = {To appear},
 
   Crossref                 = {NIPS:2009}
 }
@@ -560,6 +559,18 @@
   Year                     = {2007},
   Pages                    = {681--695},
   Volume                   = {18}
+}
+
+@Article{Ghahramani:1999,
+  Title                    = {Learning nonlinear dynamical systems using an {EM} algorithm},
+  Author                   = {Ghahramani, Zoubin and Roweis, Sam T},
+  Journal                  = {Advances in neural information processing systems},
+  Year                     = {1999},
+  Pages                    = {431--437},
+
+  Owner                    = {jluttine},
+  Publisher                = {MIT; 1998},
+  Timestamp                = {2014.09.02}
 }
 
 @Article{Girolami:2008,
@@ -1238,6 +1249,20 @@
   Volume                   = {61}
 }
 
+@Article{Valpola:2002,
+  Title                    = {An unsupervised ensemble learning method for nonlinear dynamic state-space models},
+  Author                   = {Valpola, Harri and Karhunen, Juha},
+  Journal                  = {Neural computation},
+  Year                     = {2002},
+  Number                   = {11},
+  Pages                    = {2647--2692},
+  Volume                   = {14},
+
+  Owner                    = {jluttine},
+  Publisher                = {MIT Press},
+  Timestamp                = {2014.09.02}
+}
+
 @Misc{Walsh:2004,
   Title                    = {Markov Chain Monte Carlo and Gibbs Sampling},
 
@@ -1559,8 +1584,7 @@
 @InProceedings{Lazaro-Gredilla:2011,
   Title                    = {Variational Heteroscedastic {Gaussian} Process Regression},
 
-  Abstract                 = {Standard Gaussian processes (GPs) model observations’ noise as constant throughout input space. This is often a too restrictive assumption, but one that is needed for GP inference to be tractable. In this work
-we present a non-standard variational approximation that allows accurate inference in heteroscedastic GPs (i.e., under input-dependent noise conditions). Computational cost is roughly twice that of the standard GP, and also scales as O($n^3$). Accuracy is verified by comparing with the golden standard MCMC and its effectiveness is illustrated on several synthetic and real datasets of diverse characteristics. An application to volatility forecasting is also considered.}
+  Abstract                 = {Standard Gaussian processes (GPs) model observations’ noise as constant throughout input space. This is often a too restrictive assumption, but one that is needed for GP inference to be tractable. In this work we present a non-standard variational approximation that allows accurate inference in heteroscedastic GPs (i.e., under input-dependent noise conditions). Computational cost is roughly twice that of the standard GP, and also scales as O($n^3$). Accuracy is verified by comparing with the golden standard MCMC and its effectiveness is illustrated on several synthetic and real datasets of diverse characteristics. An application to volatility forecasting is also considered.}
 }
 
 @Article{Lopes:2011,
@@ -1596,9 +1620,7 @@ we present a non-standard variational approximation that allows accurate inferen
   Year                     = {2011},
 
   Abstract                 = {Existing historical records of sea-surface temperature extending back to the mid-1800s are a valuable source of information about climate variability on interannual and decadal time-scales. However, the temporal and spatial irregularity of these data make them difficult to use in climate research, where gridded and complete data fields are expected for both statistical analysis and forcing numerical models.
-
 Infilling methods based on constraining the solution to the linear space spanned by the leading eigenvectors of the global-scale covariance, otherwise known as reduced-space methods, have proven very successful in creating gridded estimates of sea-surface temperature. These methods are especially useful for infilling the vast regions of unobserved ocean typical of the earliest segments of the data record. Regional variability, on the other hand, is not well represented by these methods, especially in data-poor regions. Here we present a method for augmenting the established large-scale reconstruction methods with a statistical model of the mid-scale variability. Using high quality sea-surface temperature data from the last 30 years including satellite-derived records, we specify a spatially non-stationary, anisotropic covariance model for the mid-scale sea-surface temperature variability. With the parameters of the covariance model estimated from the modern record, historical observations are used for conditioning the posterior distribution. Specifically, we form the expected value and correlated uncertainty of the mid-scales as well as generating samples from the posterior.
-
 While this work focuses on a limited domain in the midlatitude North Atlantic Ocean, the method employed here can be extended to global reconstructions.},
   Doi                      = {10.1002/qj.900}
 }
