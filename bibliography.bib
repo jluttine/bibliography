@@ -561,6 +561,18 @@
   Volume                   = {18}
 }
 
+@Article{Ghahramani:1998:sssm,
+  Title                    = {Variational Learning for Switching State-Space Models},
+  Author                   = {Ghahramani, Zoubin and Hinton, Geoffrey E.},
+  Journal                  = {Neural Computation},
+  Year                     = {1998},
+  Pages                    = {963--996},
+  Volume                   = {12},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
+}
+
 @Article{Ghahramani:1999,
   Title                    = {Learning nonlinear dynamical systems using an {EM} algorithm},
   Author                   = {Ghahramani, Zoubin and Roweis, Sam T},
@@ -796,6 +808,16 @@
   Volume                   = {103}
 }
 
+@TechReport{Khan:2004,
+  Title                    = {Robust Generative Subspace Modeling: The Subspace t Distribution},
+  Author                   = {Zia Khan and Frank Dellaert},
+  Institution              = {GVU Center, College of Computing, Georgia},
+  Year                     = {2004},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
+}
+
 @Article{Klami:2013,
   Title                    = {{Bayesian} canonical correlation analysis},
   Author                   = {Klami, Arto and Virtanen, Seppo and Kaski, Samuel},
@@ -858,6 +880,18 @@
 
   Abstract                 = {We consider the problem of fitting a statistical model to 30 years of sea surface temperature records collected over a large portion of the Northern Atlantic. The observations were collected sparsely in space and time with different levels of accuracy. The purpose of the model is to produce an atlas of oceanic properties, including climatological mean fields, estimates of historical trends, and a spatio-temporal reconstruction of the anomalies, i.e., the transient deviations from the climatological mean. These products are of interest to climate change and climate variability research, numerical modeling, and remote sensing analyses. Our model improves upon the current tools used by oceanographers in that it constructs instantaneous temperature fields before averaging them into the climatology, thus giving equal weight to all years in the time frame, regardless of the temporal distribution of data. It also accounts for nonisotropic and nonstationary space and time dependencies, owing to its use of discrete process convolutions. Particular attention is given to the handling of massive datasets such as the one under study. This is achieved by considering compact support kernels that allow an efficient parallelization of the Markov chain Monte Carlo method used in the estimation of the model parameters. Resulting monthly climatologies are compared with those of the World Ocean Atlas 2001, version 2. Different water masses appear better separated in our climatology, and a close link emerges between the kernels' shape and the dominating patterns of ocean currents. The subpolar and the temperate North Atlantic display opposite trends, with the former mainly cooling over the years and the latter mainly warming, especially in the Gulf Stream region. Long-term changes in annual cycles are also detected. As in any hierarchical Bayesian model, parameter estimates come with credibility intervals, which are useful to compare results with other approaches and detect areas where sampling campaigns are needed the most.},
   Doi                      = {10.1198/jasa.2009.0018}
+}
+
+@Article{Liu:1995,
+  Title                    = {{ML} estimation of the t distribution using {EM} and its extensions, {ECM} and {ECME}},
+  Author                   = {Liu, C. and Rubin, D. B.},
+  Journal                  = {Statistica Sinica},
+  Year                     = {1995},
+  Pages                    = {19--39},
+  Volume                   = {5},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
 }
 
 @Article{Liu:1998,
@@ -1051,6 +1085,18 @@
   Timestamp                = {2014.08.13}
 }
 
+@InCollection{Pavlovic:2000,
+  Title                    = {Learning Switching Linear Models of Human Motion},
+  Author                   = {Pavlovic, Vladimir and Rehg, James M. and MacCormick, John},
+  Booktitle                = {Advances in Neural Information Processing Systems 13},
+  Publisher                = {MIT Press},
+  Year                     = {2001},
+  Pages                    = {981--987},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
+}
+
 @Article{Pearson:1901,
   Title                    = {On lines and planes of closest fit to systems of points in space},
   Author                   = {Pearson, Karl},
@@ -1089,6 +1135,16 @@
   Month                    = dec,
   Pages                    = {1939--1959},
   Volume                   = {6}
+}
+
+@InProceedings{raiko2010drifting,
+  Title                    = {Drifting Linear Dynamics (Abstract)},
+  Author                   = {Raiko, Tapani and Ilin, Alexander and Korsakova, Natalia and Oja, Erkki and Valpola, Harri},
+  Booktitle                = {International Conference on Artificial Intelligence and Statistics (AISTATS 2010)},
+  Year                     = {2010},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
 }
 
 @Article{Raiko:2007,
@@ -1340,6 +1396,20 @@
   Volume                   = {18},
 
   Doi                      = {10.1002/env.807}
+}
+
+@Article{Zhao:2006,
+  Title                    = {Probabilistic {PCA} for t distributions},
+  Author                   = {Zhao, J. and Jiang, Q.},
+  Journal                  = {Neurocomputing},
+  Year                     = {2006},
+
+  Month                    = {October},
+  Pages                    = {2217--2226},
+  Volume                   = {69},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.09.11}
 }
 
 @Book{NIPS:2002,
@@ -1619,9 +1689,7 @@
   Journal                  = {Quarterly Journal of the Royal Meteorological Society},
   Year                     = {2011},
 
-  Abstract                 = {Existing historical records of sea-surface temperature extending back to the mid-1800s are a valuable source of information about climate variability on interannual and decadal time-scales. However, the temporal and spatial irregularity of these data make them difficult to use in climate research, where gridded and complete data fields are expected for both statistical analysis and forcing numerical models.
-Infilling methods based on constraining the solution to the linear space spanned by the leading eigenvectors of the global-scale covariance, otherwise known as reduced-space methods, have proven very successful in creating gridded estimates of sea-surface temperature. These methods are especially useful for infilling the vast regions of unobserved ocean typical of the earliest segments of the data record. Regional variability, on the other hand, is not well represented by these methods, especially in data-poor regions. Here we present a method for augmenting the established large-scale reconstruction methods with a statistical model of the mid-scale variability. Using high quality sea-surface temperature data from the last 30 years including satellite-derived records, we specify a spatially non-stationary, anisotropic covariance model for the mid-scale sea-surface temperature variability. With the parameters of the covariance model estimated from the modern record, historical observations are used for conditioning the posterior distribution. Specifically, we form the expected value and correlated uncertainty of the mid-scales as well as generating samples from the posterior.
-While this work focuses on a limited domain in the midlatitude North Atlantic Ocean, the method employed here can be extended to global reconstructions.},
+  Abstract                 = {Existing historical records of sea-surface temperature extending back to the mid-1800s are a valuable source of information about climate variability on interannual and decadal time-scales. However, the temporal and spatial irregularity of these data make them difficult to use in climate research, where gridded and complete data fields are expected for both statistical analysis and forcing numerical models. Infilling methods based on constraining the solution to the linear space spanned by the leading eigenvectors of the global-scale covariance, otherwise known as reduced-space methods, have proven very successful in creating gridded estimates of sea-surface temperature. These methods are especially useful for infilling the vast regions of unobserved ocean typical of the earliest segments of the data record. Regional variability, on the other hand, is not well represented by these methods, especially in data-poor regions. Here we present a method for augmenting the established large-scale reconstruction methods with a statistical model of the mid-scale variability. Using high quality sea-surface temperature data from the last 30 years including satellite-derived records, we specify a spatially non-stationary, anisotropic covariance model for the mid-scale sea-surface temperature variability. With the parameters of the covariance model estimated from the modern record, historical observations are used for conditioning the posterior distribution. Specifically, we form the expected value and correlated uncertainty of the mid-scales as well as generating samples from the posterior. While this work focuses on a limited domain in the midlatitude North Atlantic Ocean, the method employed here can be extended to global reconstructions.},
   Doi                      = {10.1002/qj.900}
 }
 
