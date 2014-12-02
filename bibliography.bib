@@ -106,6 +106,14 @@
   Crossref                 = {NIPS:2004}
 }
 
+@InCollection{Knowles:2011,
+  Title                    = {Non-conjugate Variational Message Passing for Multinomial and Binary Regression},
+  Author                   = {Knowles, David A. and Minka, Tom},
+  Pages                    = {1701--1709},
+
+  Crossref                 = {NIPS:2011}
+}
+
 @InCollection{Lazaro-Gredilla:2009,
   Title                    = {Inter-domain {Gaussian} Processes for Sparse Inference using Inducing Features},
   Author                   = {L\'{a}zaro-Gredilla, Miguel and Figueiras-Vidal, An\'{i}bal R.},
@@ -224,8 +232,7 @@
 
   Crossref                 = {NIPS:1997},
   Owner                    = {jluttine},
-  Timestamp                = {2014.12.01},
-  Url                      = {http://papers.nips.cc/paper/1398-em-algorithms-for-pca-and-spca.pdf}
+  Timestamp                = {2014.12.01}
 }
 
 @InProceedings{Schmidt:2009,
@@ -744,7 +751,7 @@
 @InProceedings{Hensman:2013,
   Title                    = {Gaussian Processes for Big Data},
   Author                   = {Hensman, James and Fusi, Nicolo and Lawrence, Neil},
-  Booktitle                = {Proceedings of the Twenty-Ninth Conference Annual Conference on Uncertainty in Artificial Intelligence (UAI-13)},
+  Booktitle                = {Proceedings of the 29th Conference Annual Conference on Uncertainty in Artificial Intelligence},
   Year                     = {2013},
   Pages                    = {282--290},
   Publisher                = {AUAI Press},
@@ -756,8 +763,19 @@
   File                     = {:Hensman\:2013.pdf:PDF},
   Interhash                = {1dd1e6b3a097a6e7252812b7348d905b},
   Intrahash                = {42ec2a9ea2dc7238a0ca148152203ef1},
-  Keywords                 = {gaussian process},
-  Url                      = {http://arxiv.org/abs/1309.6835}
+  Keywords                 = {gaussian process}
+}
+
+@InProceedings{Hensman:2014:tvb,
+  Title                    = {Tilted Variational {Bayes}},
+  Author                   = {Hensman, James and Zwiessele, Max and Lawrence, Neil},
+  Booktitle                = {Proceedings of the 17th International Conference on Artificial Intelligence and Statistics},
+  Year                     = {2014},
+  Editor                   = {Kaski, Samuel and Corander, Jukka},
+  Pages                    = {356--364},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.12.02}
 }
 
 @Article{Dimple,
@@ -768,6 +786,18 @@
 
   Owner                    = {jluttine},
   Timestamp                = {2014.08.13}
+}
+
+@Article{Hoffman:2013,
+  Title                    = {Stochastic Variational Inference},
+  Author                   = {Hoffman, Matthew D. and David M. Blei and Chong Wang and John Paisley},
+  Journal                  = {Journal of Machine Learning Research},
+  Year                     = {2013},
+  Pages                    = {1303--47},
+  Volume                   = {14},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.12.02}
 }
 
 @Article{Hoffman:1991,
@@ -920,7 +950,7 @@
 @InProceedings{Kang:2012,
   Title                    = {Probabilistic Models for Common Spatial Patterns: Parameter-Expanded {EM} and Variational {Bayes}},
   Author                   = {Hyohyeong Kang and Seungjin Choi},
-  Booktitle                = {Proceedings of the Twenty-Sixth AAAI Conference on Artificial Intelligence},
+  Booktitle                = {Proceedings of the 26th AAAI Conference on Artificial Intelligence},
   Year                     = {2012},
 
   Bibsource                = {DBLP, http://dblp.uni-trier.de},
@@ -1085,14 +1115,13 @@
 @InProceedings{Luttinen:2012:aistats,
   Title                    = {Efficient {Gaussian} Process Inference for Short-Scale Spatio-Temporal Modeling},
   Author                   = {Luttinen, Jaakko and Ilin, Alexander},
-  Booktitle                = {JMLR Workshop and Conference Proceedings (AISTATS 2012)},
+  Booktitle                = {Proceedings of the 15th International Conference on Artificial Intelligence and Statistics},
   Year                     = {2012},
   Pages                    = {741--750},
   Volume                   = {22},
 
   Abstract                 = {This paper presents an efficient Gaussian process inference scheme for modeling shortscale phenomena in spatio-temporal datasets. Our model uses a sum of separable, compactly supported covariance functions, which yields a full covariance matrix represented in terms of small sparse matrices operating either on the spatial or temporal domain. The proposed inference procedure is based on Gibbs sampling, in which samples from the conditional distribution of the latent function values are obtained by applying a simple linear transformation to samples drawn from the joint distribution of the function values and the observations. We make use of the proposed model structure and the conjugate gradient method to compute the required transformation. In the experimental part, the proposed algorithm is compared to the standard approach using the sparse Cholesky decomposition and it is shown to be much faster and computationally feasible for 100-1000 times larger datasets. We demonstrate the advantages of the proposed method in the problem of reconstructing sea surface temperature, which requires processing of a real-world dataset with 10^6 observations.},
-  File                     = {:Luttinen\:2012\:aistats.pdf:PDF},
-  Url                      = {http://jmlr.csail.mit.edu/proceedings/papers/v22/luttinen12/luttinen12.pdf}
+  File                     = {:Luttinen\:2012\:aistats.pdf:PDF}
 }
 
 @Article{Luttinen:2010,
@@ -1300,7 +1329,7 @@
 @InProceedings{raiko2010drifting,
   Title                    = {Drifting Linear Dynamics (Abstract)},
   Author                   = {Raiko, Tapani and Ilin, Alexander and Korsakova, Natalia and Oja, Erkki and Valpola, Harri},
-  Booktitle                = {International Conference on Artificial Intelligence and Statistics (AISTATS 2010)},
+  Booktitle                = {International Conference on Artificial Intelligence and Statistics},
   Year                     = {2010},
 
   Owner                    = {jluttine},
@@ -1315,6 +1344,18 @@
 
   Owner                    = {jluttine},
   Timestamp                = {2014.08.13}
+}
+
+@InProceedings{Ranganath:2014,
+  Title                    = {Black Box Variational Inference},
+  Author                   = {Ranganath, Rajesh and Gerrish, Sean and Blei, David},
+  Booktitle                = {Proceedings of the 17th International Conference on Artificial Intelligence and Statistics},
+  Year                     = {2014},
+  Editor                   = {Kaski, Samuel and Corander, Jukka},
+  Pages                    = {814--822},
+
+  Owner                    = {jluttine},
+  Timestamp                = {2014.12.02}
 }
 
 @Book{Rasmussen:2006,
@@ -1620,11 +1661,11 @@
   Editor                   = {Bishop, Christopher M. and Frey, Brendan J.},
   Publisher                = {Society for Artificial Intelligence and Statistics},
 
-  Booktitle                = {Proceedings of the 9th International Workshop on Artificial Intelligence and Statistics (AISTATS'03)}
+  Booktitle                = {Proceedings of the 9th International Workshop on Artificial Intelligence and Statistics}
 }
 
 @Proceedings{ICML:2009,
-  Title                    = {Proceedings of the 26th International Conference on Machine Learning (ICML'09)},
+  Title                    = {Proceedings of the 26th International Conference on Machine Learning},
   Year                     = {2009},
 
   Address                  = {Montreal},
@@ -1632,7 +1673,7 @@
   Month                    = jun,
   Publisher                = {Omnipress},
 
-  Booktitle                = {Proceedings of the 26th International Conference on Machine Learning (ICML'09)}
+  Booktitle                = {Proceedings of the 26th International Conference on Machine Learning}
 }
 
 @Proceedings{AISTATS:2005,
@@ -1640,7 +1681,7 @@
   Editor                   = {Cowell, Robert G. and Ghahramani, Zoubin},
   Publisher                = {Society for Artificial Intelligence and Statistics},
 
-  Booktitle                = {Proceedings of the 10th International Workshop on Artificial Intelligence and Statistics (AISTATS'05)}
+  Booktitle                = {Proceedings of the 10th International Workshop on Artificial Intelligence and Statistics}
 }
 
 @Book{NIPS:2001,
@@ -1659,7 +1700,7 @@
   Editor                   = {van Dyk, David and Welling, Max},
   Publisher                = {Society for Artificial Intelligence and Statistics},
 
-  Booktitle                = {Proceedings of the 12th International Workshop on Artificial Intelligence and Statistics (AISTATS'09)}
+  Booktitle                = {Proceedings of the 12th International Workshop on Artificial Intelligence and Statistics}
 }
 
 @Book{Finkenstadt:2007,
@@ -1727,7 +1768,7 @@
 }
 
 @Proceedings{UAI:2008,
-  Title                    = {Proceedings of the 24th Conference in Uncertainty in Artificial Intelligence (UAI'2008)},
+  Title                    = {Proceedings of the 24th Conference in Uncertainty in Artificial Intelligence},
   Year                     = {2008},
 
   Address                  = {Helsinki, Finland},
@@ -1735,7 +1776,7 @@
   Month                    = jul,
   Publisher                = {AUAI Press},
 
-  Booktitle                = {Proceedings of the 24th Conference in Uncertainty in Artificial Intelligence (UAI'2008)}
+  Booktitle                = {Proceedings of the 24th Conference in Uncertainty in Artificial Intelligence}
 }
 
 @Proceedings{AISTATS:2007,
@@ -1743,7 +1784,7 @@
   Editor                   = {Meila, Marina and Shen, Xiaotong},
   Publisher                = {Society for Artificial Intelligence and Statistics},
 
-  Booktitle                = {Proceedings of the 11th International Workshop on Artificial Intelligence and Statistics (AISTATS'07)}
+  Booktitle                = {Proceedings of the 11th International Workshop on Artificial Intelligence and Statistics}
 }
 
 @Book{NIPS:2012,
@@ -1788,6 +1829,17 @@
   Address                  = {Cambridge, MA},
 
   Booktitle                = {Advances in Neural Information Processing Systems 19}
+}
+
+@Book{NIPS:2011,
+  Title                    = {Advances in Neural Information Processing Systems 24},
+  Editor                   = {J. Shawe-Taylor and R.S. Zemel and P.L. Bartlett and F. Pereira and K.Q. Weinberger},
+  Publisher                = {Curran Associates, Inc.},
+  Year                     = {2011},
+
+  Booktitle                = {Advances in Neural Information Processing Systems 24},
+  Owner                    = {jluttine},
+  Timestamp                = {2014.12.02}
 }
 
 @Book{NIPS:1999,
@@ -1939,13 +1991,13 @@
 @Proceedings{ICML:2006,
   Year                     = {2006},
 
-  Booktitle                = {Proceedings of the 23rd International Conference on Machine Learning (ICML'06)}
+  Booktitle                = {Proceedings of the 23rd International Conference on Machine Learning}
 }
 
 @Proceedings{ICANN:1999,
   Year                     = {1999},
 
-  Booktitle                = {Proceedings of the 9th International Conference on Artificial Neural Networks (ICANN'99)}
+  Booktitle                = {Proceedings of the 9th International Conference on Artificial Neural Networks}
 }
 
 @Article{Hasselmann:1976,
